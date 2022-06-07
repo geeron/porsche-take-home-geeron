@@ -18,7 +18,7 @@ const Masthead: React.FC = () => {
   const handleImageLoaded = useCallback(() => {
     setTimeout(() => {
       setImageLoaded(true);
-    }, 5200);
+    }, 8000);
   }, []);
 
   return (

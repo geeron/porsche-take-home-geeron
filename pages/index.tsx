@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Gaute Rongve | rongve.com</title>
+        <title>Porsche 911</title>
         <meta name="description" content="Bird's dont fly in a cage" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       <About />
       <Elevator />
       <Works />
-      <Contact />
+      <Masthead />
       <Footer />
     </div>
   );

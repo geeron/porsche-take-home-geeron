@@ -15,25 +15,17 @@ const Works = () => {
           renderContent={({ progress }) => (
             <WorkContainer>
               <WorkLeft progress={progress}>
-                <div>I helped speed up</div>
                 <div className="to bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-4xl font-semibold tracking-tight text-transparent md:text-5xl">
-                  PowerWash
+                  Fast
                 </div>
-
-                <div className=" mt-2 max-w-xs text-lg">
-                  by refactoring the React Native app to TypeScript, adding E2E
-                  testing using Cypress and Jest, and rethinking the component
-                  structure.
-                </div>
+                <div className=" mt-2 max-w-xs text-lg"></div>
               </WorkLeft>
-
               <WorkRight progress={progress}>
                 <Image
-                  src="/assets/powerwash.png"
+                  src="/assets/porsche.png"
                   layout="responsive"
-                  width={1400}
-                  height={1200}
-                  alt="powerwash"
+                  width={862}
+                  height={292}
                 ></Image>
               </WorkRight>
             </WorkContainer>
@@ -46,23 +38,18 @@ const Works = () => {
           renderContent={({ progress }) => (
             <WorkContainer>
               <WorkLeft progress={progress}>
-                <div>I built</div>
+                <div></div>
                 <div className="to bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-4xl font-semibold tracking-tight text-transparent md:text-5xl">
-                  HikeHike
+                  Elegant
                 </div>
-                <div className=" mt-2 max-w-xs text-lg">
-                  using React, NodeJS, Express and MongoDB, with dynamic
-                  QR-codes.
-                </div>
+                <div className=" mt-2 max-w-xs text-lg"></div>
               </WorkLeft>
-
               <WorkRight progress={progress}>
                 <Image
-                  src="/assets/hikehike.png"
+                  src="/assets/porsche.png"
                   layout="responsive"
-                  width={850}
-                  height={650}
-                  alt="hikehike"
+                  width={862}
+                  height={292}
                 ></Image>
               </WorkRight>
             </WorkContainer>
@@ -75,22 +62,22 @@ const Works = () => {
           renderContent={({ progress }) => (
             <WorkContainer>
               <WorkLeft progress={progress}>
-                <div>I developed for</div>
+                <div>Timeless</div>
                 <div className="to bg-gradient-to-r from-red-400 to-red-600 bg-clip-text text-4xl font-semibold tracking-tight text-transparent md:text-5xl">
-                  PictureThis!
+                  Design
                 </div>
                 <div className=" mt-2 max-w-xs text-lg">
-                  utilizing Svelte with Tailwind, interacting with websockets
-                  through Socket.IO.
+                  contemporary interpretation. The shape of the{" "}
+                  <strong>911</strong>
                 </div>
               </WorkLeft>
 
               <WorkRight progress={progress}>
                 <Image
-                  src="/assets/picturethis.png"
+                  src="/assets/porsche.png"
                   layout="responsive"
-                  width={900}
-                  height={650}
+                  width={862}
+                  height={292}
                   alt="picture this"
                 ></Image>
               </WorkRight>
