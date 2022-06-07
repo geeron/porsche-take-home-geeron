@@ -36,22 +36,22 @@ const Elevator: React.FC = () => {
             className={s.skillText}
             style={{ opacity: opacityForBlock(progress, 0) }}
           >
-            I strongly believe that no problem is too hard if you break it down
-            into smaller pieces.
+            The harmony of tradition and modernity–the iconic flyline and the
+            continuous light strip.
           </div>
           <span
             className={`${s.skillText} inline-block after:content-['_']`}
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
-            I am always learning, and constantly looking for ways to make things
-            easier.
+            The Coupé version of the 911 embodies Porsche DNA in its purest
+            form: the long, flat bonnet, the steeply inclined windscreen.
           </span>
           <span
             className={`${s.skillText} inline-block`}
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            I have contributed to numerous projects with many different
-            technologies.
+            And the roof line that slopes gently down towards the rear, already
+            characterised the original 911.
           </span>
         </div>
       </div>

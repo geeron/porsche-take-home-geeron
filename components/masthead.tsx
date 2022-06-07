@@ -36,15 +36,10 @@ const Masthead: React.FC = () => {
         playsInline
         className="absolute h-full w-full object-cover"
       >
-        <source src="/assets/masthead-bg.mp4" type="video/mp4" />
+        <source src="/assets/porsche.mp4" type="video/mp4" />
       </video>
 
       <div className="z-10 flex flex-1 flex-col items-center justify-center p-12 text-center font-bold text-white drop-shadow-sm">
-        <h1 className="mb-6 px-2 text-4xl xl:text-5xl">
-          <span className="tracking-widest bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text font-extrabold text-transparent">
-            Gaute Rongve
-          </span>
-        </h1>
         <h2 className="mb-2 w-full text-xl tracking-tight xl:text-3xl">
           <div className="ml-1 -mt-4 flex justify-items-start xl:-ml-3">
             <TypeWriter></TypeWriter>
