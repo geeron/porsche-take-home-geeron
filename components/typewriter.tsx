@@ -8,7 +8,7 @@ const TypeWriter = () => {
     infiniteLoop: false,
     blinker: "|",
     delay: 1000,
-    blinkerDelay: 600,
+    blinkerDelay: 550,
   });
   return (
     <div className=" pl-4">
